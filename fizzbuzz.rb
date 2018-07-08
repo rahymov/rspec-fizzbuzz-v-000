@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
- 
   if number % 3 == 0
     print "Fizz"
   elsif number % 5 == 0
