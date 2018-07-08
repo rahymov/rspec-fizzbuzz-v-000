@@ -3,4 +3,5 @@
 
 def fizzbuzz(number)
   fizz_3 = number % 3 == 0
+  fizz_5 = number % 5 == 0
 end
