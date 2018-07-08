@@ -2,11 +2,5 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number % 3 == 0
-    print "Fizz"
-  else if number % 5 == 0 
-    print "Buzz"
-  else if number % 15 == 0
-    print "FizzBuzz"
-  end
+  
 end
