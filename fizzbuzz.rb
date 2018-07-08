@@ -2,13 +2,13 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number % 3 == 0
-    print "Fizz"
+  if number % 3 == 0 && number % 5 == 0
+   return "FizzBuzz"
   elsif number % 5 == 0
-    print "Buzz"
-  elsif number % 3 == 0 && number % 5 == 0
-    print "FizzBuzz"
-  else 
+   return "Buzz"
+  elsif number % 3 == 0 
+    return "Fizz" 
+  else
     nil
   end
 end
