@@ -8,5 +8,7 @@ def fizzbuzz(number)
     print "Buzz"
   elsif number % 3 == 0 && number % 5 == 0
     print "FizzBuzz"
+  else 
+    nil
   end
 end
