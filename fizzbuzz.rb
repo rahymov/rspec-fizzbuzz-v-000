@@ -6,9 +6,9 @@ def fizzbuzz(number)
   fizz_5 = number % 5 == 0
   if number % 3 == 0
     print "Fizz"
-  elsif fizz_5
+  elsif number % 5 == 0
     print "Buzz"
-  elsif fizz_3 && fizz_5
+  elsif number % 3 == 0 && number % 5 == 0
     print "FizzBuzz"
   end
 end
