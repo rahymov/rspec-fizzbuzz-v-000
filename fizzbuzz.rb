@@ -2,5 +2,5 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  fizz_3 = 
+  fizz_3 = number % 3 == 0
 end
