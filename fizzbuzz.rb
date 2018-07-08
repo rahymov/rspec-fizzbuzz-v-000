@@ -8,4 +8,5 @@ def fizzbuzz(number)
     print "Buzz"
   else
     print "FizzBuzz"
+  end
 end
