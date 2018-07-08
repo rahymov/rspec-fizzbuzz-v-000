@@ -10,4 +10,5 @@ def fizzbuzz(number)
     print "Buzz"
   elsif fizz_3 && fizz_5
     print "FizzBuzz"
+  end
 end
