@@ -9,5 +9,5 @@ def fizzbuzz(number)
   elsif fizz_5
     print "Buzz"
   elsif fizz_3 && fizz_5
-    print
+    print "FizzBuzz"
 end
