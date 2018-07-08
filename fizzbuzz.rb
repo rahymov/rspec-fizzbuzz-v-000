@@ -6,4 +6,5 @@ def fizzbuzz(number)
     print "Fizz"
   else if number % 5 == 0 
     print "Buzz"
+  else
 end
